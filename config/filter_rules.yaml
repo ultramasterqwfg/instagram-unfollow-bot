@@ -1,0 +1,11 @@
+rules:
+  non_reciprocal_only: true
+  min_days_since_last_interaction: 30
+  exclude_verified: true
+  exclude_whitelist_usernames:
+    - "close_friend_1"
+    - "brand_partner_1"
+  keyword_flags:
+    - "giveaway"
+    - "promo"
+    - "dm me"
